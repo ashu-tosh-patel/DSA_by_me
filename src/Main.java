@@ -19,9 +19,10 @@ public class Main {
 
 //        System.out.println(bit.missingNum(arr));
 //        ap.arrayReverse(arr);
-        ap.arrayRotate(arr, 4);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
+
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+        System.out.println(ap.maxKSum(arr, 3));
     }
 }
+

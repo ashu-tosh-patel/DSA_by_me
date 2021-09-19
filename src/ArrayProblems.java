@@ -17,6 +17,24 @@ public class ArrayProblems {
     }
 
 
+    //to find maximum k consecutive elements
+    //sliding window technique
+    int maxKSum(int arr[],int k){
+        int max=Integer.MIN_VALUE;
+        int win_sum=0;
+        for (int i=0; i<k; i++){
+            win_sum+=arr[i];
+        }
+        max=win_sum;
+
+        for (int i=0; i<arr.length-k; i++){
+            win_sum=win_sum-arr[i]+arr[i+k];
+
+            if (win_sum>max)
+                max=win_sum;
+        }
+        return max;
+    }
 
 }
 
