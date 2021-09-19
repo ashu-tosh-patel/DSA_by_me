@@ -13,8 +13,8 @@ public class Main {
 //            System.out.println("yes");
 //        else System.out.println("no");
 //
-        ArrayProblems ap = new ArrayProblems();
-        int arr[] = {0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 5, 15, 13};
+//        ArrayProblems ap = new ArrayProblems();
+//        int arr[] = {0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 5, 15, 13};
 //        System.out.println(bit.findOddOccuring(arr));
 
 //        System.out.println(bit.missingNum(arr));
@@ -22,7 +22,15 @@ public class Main {
 
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + " ");
-        System.out.println(ap.maxKSum(arr, 3));
+//
+        PrefixSum ps= new PrefixSum();
+
+        int arr[] = {2,8,3,9,6,5,4};
+        int brr[] = ps.prefixSum(arr);
+        for (int i=0; i<arr.length; i++){
+            System.out.print(brr[i]+" ");
+        }
+
     }
 }
 
