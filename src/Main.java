@@ -18,7 +18,8 @@ public class Main {
 //        System.out.println(bit.findOddOccuring(arr));
 
 //        System.out.println(bit.missingNum(arr));
-        ap.arrayReverse(arr);
+//        ap.arrayReverse(arr);
+        ap.arrayRotate(arr, 4);
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
