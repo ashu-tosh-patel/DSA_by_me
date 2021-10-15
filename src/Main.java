@@ -22,15 +22,24 @@ public class Main {
 
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + " ");
+////
+//        PrefixSum ps= new PrefixSum();
 //
-        PrefixSum ps= new PrefixSum();
+//        int arr[] = {2,8,3,9,6,5,4};
+//        int brr[] = ps.prefixSum(arr);
 
-        int arr[] = {2,8,3,9,6,5,4};
-        int brr[] = ps.prefixSum(arr);
-        for (int i=0; i<arr.length; i++){
-            System.out.print(brr[i]+" ");
+        ArrayProblems ap = new ArrayProblems();
+
+        int arr[] = new int[10];
+        for (int i = 0; i < 8; i++) {
+            arr[i] = i;
         }
 
+        ap.insert(arr,4,10,5,8);
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
 }
 
