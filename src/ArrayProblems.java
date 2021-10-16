@@ -50,6 +50,21 @@ public class ArrayProblems {
         return n + 1;
 
     }
+    //to return position of largest element in an array
+
+    int maxPos(int arr[]){
+
+        int pos=0;
+        for (int i=0; i<arr.length;i++){
+            if (arr[i]>arr[pos]){
+
+                pos=i;
+            }
+        }
+        return pos+1;
+
+    }
+
 
 
 }

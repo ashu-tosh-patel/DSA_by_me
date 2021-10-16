@@ -24,22 +24,24 @@ public class Main {
 //            System.out.print(arr[i] + " ");
 ////
 //        PrefixSum ps= new PrefixSum();
-//
-//        int arr[] = {2,8,3,9,6,5,4};
+
+        int arr[] = {2,8,3,10,6,5,4};
 //        int brr[] = ps.prefixSum(arr);
 
         ArrayProblems ap = new ArrayProblems();
 
-        int arr[] = new int[10];
-        for (int i = 0; i < 8; i++) {
-            arr[i] = i;
-        }
+//        int arr[] = new int[10];
+//        for (int i = 0; i < 8; i++) {
+//            arr[i] = i;
+//        }
 
-        ap.insert(arr,4,10,5,8);
+//        ap.insert(arr,4,10,5,8);
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
+        System.out.println(ap.maxPos(arr));
     }
 }
 
