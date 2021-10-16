@@ -25,7 +25,7 @@ public class Main {
 ////
 //        PrefixSum ps= new PrefixSum();
 
-        int arr[] = {2,8,3,10,6,5,4};
+        int arr[] = {5,20,12,20,8 };
 //        int brr[] = ps.prefixSum(arr);
 
         ArrayProblems ap = new ArrayProblems();
@@ -41,7 +41,7 @@ public class Main {
 //            System.out.print(arr[i] + " ");
 //        }
 
-        System.out.println(ap.maxPos(arr));
+        System.out.println(ap.pos2Max(arr));
     }
 }
 

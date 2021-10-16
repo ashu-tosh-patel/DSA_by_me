@@ -52,19 +52,37 @@ public class ArrayProblems {
     }
     //to return position of largest element in an array
 
-    int maxPos(int arr[]){
+    int maxPos(int arr[]) {
 
-        int pos=0;
-        for (int i=0; i<arr.length;i++){
-            if (arr[i]>arr[pos]){
+        int pos = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > arr[pos]) {
 
-                pos=i;
+                pos = i;
             }
         }
-        return pos+1;
+        return pos + 1;
 
     }
 
+    //to get the position of 2nd largest element
+    int pos2Max(int arr[]) {
+        int l = 0;
+        int l2 = -1;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > arr[l]) {
+                l2 = l;
+                l = i;
+            } else if (arr[i] != arr[l]) {
+                if (l2 == -1 || arr[i] > arr[l2])
+                    l2 = i;
+            }
+        }
+
+        return l2;
+
+    }
 
 
 }
