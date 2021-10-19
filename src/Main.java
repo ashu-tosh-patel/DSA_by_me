@@ -25,10 +25,10 @@ public class Main {
 ////
 //        PrefixSum ps= new PrefixSum();
 
-        int arr[] = {5,20,12,20,8 };
+//        int arr[] = {5,20,12,20,8 };
 //        int brr[] = ps.prefixSum(arr);
 
-        ArrayProblems ap = new ArrayProblems();
+//        ArrayProblems ap = new ArrayProblems();
 
 //        int arr[] = new int[10];
 //        for (int i = 0; i < 8; i++) {
@@ -40,8 +40,12 @@ public class Main {
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + " ");
 //        }
+//
+//        System.out.println(ap.pos2Max(arr));
 
-        System.out.println(ap.pos2Max(arr));
+        Reccursion r = new Reccursion();
+//        System.out.println(r.factorial(15));
+        r.reverse(12345678 );
     }
 }
 
