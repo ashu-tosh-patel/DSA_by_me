@@ -45,7 +45,7 @@ public class Main {
 
         Reccursion r = new Reccursion();
 //        System.out.println(r.factorial(15));
-        r.reverse(12345678 );
+        System.out.println(r.sumOfDig(123456789));
     }
 }
 
