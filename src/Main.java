@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 //
@@ -14,7 +16,7 @@ public class Main {
 //        else System.out.println("no");
 //
 //        ArrayProblems ap = new ArrayProblems();
-//        int arr[] = {0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 5, 15, 13};
+        int arr[] = {0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 5, 15, 13};
 //        System.out.println(bit.findOddOccuring(arr));
 
 //        System.out.println(bit.missingNum(arr));
@@ -43,9 +45,14 @@ public class Main {
 //
 //        System.out.println(ap.pos2Max(arr));
 
-        Reccursion r = new Reccursion();
+//        Reccursion r = new Reccursion();
 //        System.out.println(r.factorial(15));
-        System.out.println(r.sumOfDig(123456789));
+//        ap.heapSort(arr);
+        Arrays.sort(arr);
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
 }
 

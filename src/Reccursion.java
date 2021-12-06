@@ -32,7 +32,6 @@ public class Reccursion {
 
     int sumOfDig(int n) {
         if (n % 10 <= 0) return 0;
-
         return sumOfDig(n / 10) + n % 10;
     }
 
