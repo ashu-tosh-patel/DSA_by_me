@@ -50,8 +50,8 @@ public class ArrayProblems {
         return n + 1;
 
     }
-    //to return position of largest element in an array
 
+    //to return position of largest element in an array
     int maxPos(int arr[]) {
 
         int pos = 0;
@@ -81,7 +81,6 @@ public class ArrayProblems {
         }
 
         return l2;
-
     }
 
     void heapSort(int arr[]) {
@@ -100,6 +99,7 @@ public class ArrayProblems {
         }
     }
 
+    
     void heapify(int arr[], int n, int i) {
         int largest = i;
         int l = 2 * i + 1;

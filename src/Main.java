@@ -45,14 +45,17 @@ public class Main {
 //
 //        System.out.println(ap.pos2Max(arr));
 
-//        Reccursion r = new Reccursion();
+        Reccursion r = new Reccursion();
 //        System.out.println(r.factorial(15));
 //        ap.heapSort(arr);
-        Arrays.sort(arr);
+//        Arrays.sort(arr);
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+        String s = "baba";
+        System.out.println(r.isPal(s, 0, s.length() - 1));
+
     }
 }
 
