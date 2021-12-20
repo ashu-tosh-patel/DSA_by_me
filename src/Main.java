@@ -53,8 +53,9 @@ public class Main {
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + " ");
 //        }
-        String s = "abc";
-        r.printSub(s," ",0);
+//        String s = "abc";
+//        r.printSub(s," ",0);
+        r.TOH(6, 'A', 'B', 'C');
 
     }
 }
