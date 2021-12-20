@@ -53,8 +53,8 @@ public class Main {
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i] + " ");
 //        }
-        String s = "baba";
-        System.out.println(r.isPal(s, 0, s.length() - 1));
+        String s = "abc";
+        r.printSub(s," ",0);
 
     }
 }

@@ -48,6 +48,16 @@ public class Reccursion {
         if (str.charAt(s) != str.charAt(e)) return false;
         return isPal(str, s + 1, e - 1);
     }
+
+    //to print all substrings of a string in any order
+    void printSub(String str, String curr, int index) {
+        if (str.length() == index) {
+            System.out.print(curr + " ");
+            return;
+        }
+        printSub(str, curr, index + 1);
+        printSub(str, curr + str.charAt(index), index + 1);
+    }
 }
 
 
