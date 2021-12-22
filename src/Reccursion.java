@@ -69,6 +69,21 @@ public class Reccursion {
         System.out.println("Move " + n + " from " + a + " to " + c);
         TOH(n - 1, b, a, c);
     }
+
+    //to find number of subsets for given sum
+    int countSub(int arr[], int n, int sum) {
+        if (n == 0)
+            return (sum == 0) ? 1 : 0;
+        return countSub(arr, n - 1, sum) +
+                countSub(arr, n - 1, sum - arr[n - 1]);
+    }
+
+    //josephus problem -- to give position of survivor after alternatively killing every kth person
+    int jos(int n, int k) {
+        if (n == 1) return 0;
+        else return (jos(n - 1, k) + k) % n;
+    }
+
 }
 
 

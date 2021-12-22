@@ -16,7 +16,7 @@ public class Main {
 //        else System.out.println("no");
 //
 //        ArrayProblems ap = new ArrayProblems();
-        int arr[] = {0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 5, 15, 13};
+        int arr[] = {10, 20, 15};
 //        System.out.println(bit.findOddOccuring(arr));
 
 //        System.out.println(bit.missingNum(arr));
@@ -55,8 +55,12 @@ public class Main {
 //        }
 //        String s = "abc";
 //        r.printSub(s," ",0);
-        r.TOH(6, 'A', 'B', 'C');
-
+//        r.TOH(6, 'A', 'B', 'C');
+//
+//        System.out.println(r.jos(7, 3));
+        int x = 12461904;
+        r.reverse(x);
+//        System.out.println(x);
     }
 }
 
