@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.TreeMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -45,7 +46,7 @@ public class Main {
 //
 //        System.out.println(ap.pos2Max(arr));
 
-        Reccursion r = new Reccursion();
+//        Reccursion r = new Reccursion();
 //        System.out.println(r.factorial(15));
 //        ap.heapSort(arr);
 //        Arrays.sort(arr);
@@ -58,9 +59,22 @@ public class Main {
 //        r.TOH(6, 'A', 'B', 'C');
 //
 //        System.out.println(r.jos(7, 3));
-        int x = 12461904;
-        r.reverse(x);
+//        int x = 12461904;
+//        r.reverse(x);
 //        System.out.println(x);
+
+        Node r = new Node(10);
+        r.left = new Node(20);
+        r.right = new Node(30);
+        r.left.left = new Node(40);
+
+        Tree t = new Tree();
+//        t.postorder(r);
+//        System.out.println(t.size(r));
+//
+//        System.out.println(t.height(r));
+//        t.printLevelOrderLine(r);
+        t.printAtK(r,2);
     }
 }
 
