@@ -74,7 +74,9 @@ public class Main {
 //
 //        System.out.println(t.height(r));
 //        t.printLevelOrderLine(r);
-        t.printAtK(r,2);
+//        t.printAtK(r,2);
+        System.out.println(t.maxWidth(r));
     }
+
 }
 
